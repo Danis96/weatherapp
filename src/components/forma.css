@@ -1,0 +1,69 @@
+form input[name='city']::placeholder {
+  color: black;
+}
+form input[name='country']::placeholder {
+  color: black;
+}
+form input[name='city']:focus {
+  color: black;
+}
+form input[name='country']:focus {
+  color: black;
+}
+form input[name='city']{
+  border:none;
+  border-bottom: 0.2px solid rgb(139, 139, 139);
+  border-radius: none;
+  color: black;
+  margin-top: 20px;
+}
+form input[name='country']{
+  border:none;
+  border-bottom: 0.2px solid rgb(139, 139, 139);
+  border-radius: none;
+  color: black;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 321px){
+  form input[name='city']{
+    color: rgb(255, 255, 255);
+  }
+  form input[name='country']{
+    color: rgb(255, 255, 255);
+  }
+  form input[name='city']::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  form input[name='country']::placeholder {
+    color: rgb(255, 255, 255);
+  }
+}
+@media only screen and (min-width: 321px){
+  form input[name='city']{
+    color: rgb(255, 255, 255);
+  }
+  form input[name='country']{
+    color: rgb(255, 255, 255);
+  }
+  form input[name='city']::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  form input[name='country']::placeholder {
+    color: rgb(255, 255, 255);
+  }
+}
+@media only screen and (min-width: 375px){
+  form input[name='city']{
+    color: rgb(255, 255, 255);
+  }
+  form input[name='country']{
+    color: rgb(255, 255, 255);
+  }
+  form input[name='city']::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  form input[name='country']::placeholder {
+    color: rgb(255, 255, 255);
+  }
+}
